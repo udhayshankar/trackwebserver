@@ -1,6 +1,6 @@
 # trackwebserver
 
-Trackwebserver application logs the user record whoever request for the viewing image in the text file. 
+Trackwebserver application logs the user record whoever request for the viewing image in the text file. Image resource and file logs are stored and acessed from the project directory.
 
 /ping - returns response code 200 and string OK when file /tmp/ok is present, if file is not present returns 503 service unavailable
 
@@ -39,4 +39,4 @@ Ping endpoint after log file gets generated responds ok
 
 <img width="674" alt="image" src="https://user-images.githubusercontent.com/42512377/182454111-dd8a08d1-c0d9-4764-90eb-b459fb1482e4.png">
 
-
+Note: This can be extended by saving the logs in persistent storage like SQL or NOSQL database based on the requirement so that we can keep track of who is accessing the resources. Also the resources can be stored in the object store or file store which can be fetched easily.
