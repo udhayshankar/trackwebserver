@@ -1,0 +1,3 @@
+spring:
+  resources:
+    static-locations: file:com/example/trackwebserver/images/BeastBoy.gif
